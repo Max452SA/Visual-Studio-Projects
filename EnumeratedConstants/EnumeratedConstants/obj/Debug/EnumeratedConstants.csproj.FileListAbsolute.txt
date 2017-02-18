@@ -1,0 +1,6 @@
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\EnumeratedConstants\EnumeratedConstants\bin\Debug\EnumeratedConstants.exe.config
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\EnumeratedConstants\EnumeratedConstants\bin\Debug\EnumeratedConstants.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\EnumeratedConstants\EnumeratedConstants\bin\Debug\EnumeratedConstants.pdb
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\EnumeratedConstants\EnumeratedConstants\obj\Debug\EnumeratedConstants.csprojResolveAssemblyReference.cache
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\EnumeratedConstants\EnumeratedConstants\obj\Debug\EnumeratedConstants.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\EnumeratedConstants\EnumeratedConstants\obj\Debug\EnumeratedConstants.pdb

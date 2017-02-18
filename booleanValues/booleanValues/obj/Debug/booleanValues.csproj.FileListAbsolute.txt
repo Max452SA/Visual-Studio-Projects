@@ -1,0 +1,6 @@
+G:\Visual Studio Portable Projects\booleanValues\booleanValues\bin\Debug\booleanValues.exe.config
+G:\Visual Studio Portable Projects\booleanValues\booleanValues\bin\Debug\booleanValues.exe
+G:\Visual Studio Portable Projects\booleanValues\booleanValues\bin\Debug\booleanValues.pdb
+G:\Visual Studio Portable Projects\booleanValues\booleanValues\obj\Debug\booleanValues.csprojResolveAssemblyReference.cache
+G:\Visual Studio Portable Projects\booleanValues\booleanValues\obj\Debug\booleanValues.exe
+G:\Visual Studio Portable Projects\booleanValues\booleanValues\obj\Debug\booleanValues.pdb

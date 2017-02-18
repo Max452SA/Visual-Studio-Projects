@@ -1,0 +1,5 @@
+D:\Visual Studio Portable Projects\BuildingBlocks\BuildingBlocks\bin\Debug\BuildingBlocks.exe.config
+D:\Visual Studio Portable Projects\BuildingBlocks\BuildingBlocks\bin\Debug\BuildingBlocks.exe
+D:\Visual Studio Portable Projects\BuildingBlocks\BuildingBlocks\bin\Debug\BuildingBlocks.pdb
+D:\Visual Studio Portable Projects\BuildingBlocks\BuildingBlocks\obj\Debug\BuildingBlocks.exe
+D:\Visual Studio Portable Projects\BuildingBlocks\BuildingBlocks\obj\Debug\BuildingBlocks.pdb

@@ -1,0 +1,6 @@
+D:\Visual Studio Portable Projects\CSharpfromScratchHelloWorld\CSharpfromScratchHelloWorld\bin\Debug\CSharpfromScratchHelloWorld.exe.config
+D:\Visual Studio Portable Projects\CSharpfromScratchHelloWorld\CSharpfromScratchHelloWorld\bin\Debug\CSharpfromScratchHelloWorld.exe
+D:\Visual Studio Portable Projects\CSharpfromScratchHelloWorld\CSharpfromScratchHelloWorld\bin\Debug\CSharpfromScratchHelloWorld.pdb
+D:\Visual Studio Portable Projects\CSharpfromScratchHelloWorld\CSharpfromScratchHelloWorld\obj\Debug\CSharpfromScratchHelloWorld.csprojResolveAssemblyReference.cache
+D:\Visual Studio Portable Projects\CSharpfromScratchHelloWorld\CSharpfromScratchHelloWorld\obj\Debug\CSharpfromScratchHelloWorld.exe
+D:\Visual Studio Portable Projects\CSharpfromScratchHelloWorld\CSharpfromScratchHelloWorld\obj\Debug\CSharpfromScratchHelloWorld.pdb

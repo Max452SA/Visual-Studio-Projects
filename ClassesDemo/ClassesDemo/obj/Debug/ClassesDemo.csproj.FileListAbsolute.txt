@@ -1,0 +1,6 @@
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\ClassesDemo\ClassesDemo\bin\Debug\ClassesDemo.exe.config
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\ClassesDemo\ClassesDemo\bin\Debug\ClassesDemo.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\ClassesDemo\ClassesDemo\bin\Debug\ClassesDemo.pdb
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\ClassesDemo\ClassesDemo\obj\Debug\ClassesDemo.csprojResolveAssemblyReference.cache
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\ClassesDemo\ClassesDemo\obj\Debug\ClassesDemo.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\ClassesDemo\ClassesDemo\obj\Debug\ClassesDemo.pdb

@@ -1,0 +1,6 @@
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\HelloWorldV2\HelloWorldV2\bin\Debug\HelloWorldV2.exe.config
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\HelloWorldV2\HelloWorldV2\bin\Debug\HelloWorldV2.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\HelloWorldV2\HelloWorldV2\bin\Debug\HelloWorldV2.pdb
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\HelloWorldV2\HelloWorldV2\obj\Debug\HelloWorldV2.csprojResolveAssemblyReference.cache
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\HelloWorldV2\HelloWorldV2\obj\Debug\HelloWorldV2.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\HelloWorldV2\HelloWorldV2\obj\Debug\HelloWorldV2.pdb

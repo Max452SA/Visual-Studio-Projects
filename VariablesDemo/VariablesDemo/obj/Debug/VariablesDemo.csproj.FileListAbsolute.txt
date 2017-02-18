@@ -1,0 +1,6 @@
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\VariablesDemo\VariablesDemo\bin\Debug\VariablesDemo.exe.config
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\VariablesDemo\VariablesDemo\bin\Debug\VariablesDemo.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\VariablesDemo\VariablesDemo\bin\Debug\VariablesDemo.pdb
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\VariablesDemo\VariablesDemo\obj\Debug\VariablesDemo.csprojResolveAssemblyReference.cache
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\VariablesDemo\VariablesDemo\obj\Debug\VariablesDemo.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\VariablesDemo\VariablesDemo\obj\Debug\VariablesDemo.pdb

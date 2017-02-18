@@ -1,0 +1,6 @@
+c:\users\mridul\documents\visual studio 2015\Projects\ClassAverage\ClassAverage\bin\Debug\ClassAverage.exe.config
+c:\users\mridul\documents\visual studio 2015\Projects\ClassAverage\ClassAverage\bin\Debug\ClassAverage.exe
+c:\users\mridul\documents\visual studio 2015\Projects\ClassAverage\ClassAverage\bin\Debug\ClassAverage.pdb
+c:\users\mridul\documents\visual studio 2015\Projects\ClassAverage\ClassAverage\obj\Debug\ClassAverage.csprojResolveAssemblyReference.cache
+c:\users\mridul\documents\visual studio 2015\Projects\ClassAverage\ClassAverage\obj\Debug\ClassAverage.exe
+c:\users\mridul\documents\visual studio 2015\Projects\ClassAverage\ClassAverage\obj\Debug\ClassAverage.pdb

@@ -1,0 +1,6 @@
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\StaticDemo\StaticDemo\bin\Debug\StaticDemo.exe.config
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\StaticDemo\StaticDemo\bin\Debug\StaticDemo.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\StaticDemo\StaticDemo\bin\Debug\StaticDemo.pdb
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\StaticDemo\StaticDemo\obj\Debug\StaticDemo.csprojResolveAssemblyReference.cache
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\StaticDemo\StaticDemo\obj\Debug\StaticDemo.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\StaticDemo\StaticDemo\obj\Debug\StaticDemo.pdb

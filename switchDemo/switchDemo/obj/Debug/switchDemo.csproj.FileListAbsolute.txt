@@ -1,0 +1,6 @@
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\switchDemo\switchDemo\bin\Debug\switchDemo.exe.config
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\switchDemo\switchDemo\bin\Debug\switchDemo.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\switchDemo\switchDemo\bin\Debug\switchDemo.pdb
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\switchDemo\switchDemo\obj\Debug\switchDemo.csprojResolveAssemblyReference.cache
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\switchDemo\switchDemo\obj\Debug\switchDemo.exe
+C:\Users\Mridul\Documents\Visual Studio Portable Projects\switchDemo\switchDemo\obj\Debug\switchDemo.pdb

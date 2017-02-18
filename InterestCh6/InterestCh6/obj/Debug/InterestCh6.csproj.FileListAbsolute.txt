@@ -1,0 +1,5 @@
+c:\users\mridul\documents\visual studio 2015\Projects\InterestCh6\InterestCh6\bin\Debug\InterestCh6.exe.config
+c:\users\mridul\documents\visual studio 2015\Projects\InterestCh6\InterestCh6\bin\Debug\InterestCh6.exe
+c:\users\mridul\documents\visual studio 2015\Projects\InterestCh6\InterestCh6\bin\Debug\InterestCh6.pdb
+c:\users\mridul\documents\visual studio 2015\Projects\InterestCh6\InterestCh6\obj\Debug\InterestCh6.exe
+c:\users\mridul\documents\visual studio 2015\Projects\InterestCh6\InterestCh6\obj\Debug\InterestCh6.pdb

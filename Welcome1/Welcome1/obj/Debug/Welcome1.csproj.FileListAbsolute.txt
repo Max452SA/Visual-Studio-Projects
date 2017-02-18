@@ -1,0 +1,6 @@
+c:\users\mridul\documents\visual studio 2015\Projects\Welcome1\Welcome1\bin\Debug\Welcome1.exe.config
+c:\users\mridul\documents\visual studio 2015\Projects\Welcome1\Welcome1\bin\Debug\Welcome1.exe
+c:\users\mridul\documents\visual studio 2015\Projects\Welcome1\Welcome1\bin\Debug\Welcome1.pdb
+c:\users\mridul\documents\visual studio 2015\Projects\Welcome1\Welcome1\obj\Debug\Welcome1.csprojResolveAssemblyReference.cache
+c:\users\mridul\documents\visual studio 2015\Projects\Welcome1\Welcome1\obj\Debug\Welcome1.exe
+c:\users\mridul\documents\visual studio 2015\Projects\Welcome1\Welcome1\obj\Debug\Welcome1.pdb
