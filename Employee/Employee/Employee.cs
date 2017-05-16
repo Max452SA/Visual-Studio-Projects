@@ -11,19 +11,19 @@ namespace Employee
 {
     class Employee
     {
-        public string FirstName { get; }        //read-only autoimplemented property
-        public string LastName { get; }         //read-only auto-implemented property
-        private decimal monthlySalary;
-
-        //Constructor
-        public Employee(string firstName, string lastName, decimal monthlySalary)
-        {
+       public string FirstName { get; }     //read-only auto-implemented property
+       public string LastName { get; }      //read-only auto-implemented property
+       private decimal monthlySalary;       //monthly salary of the employee
+        
+       //Constructor
+       public Employee(string firstName, string lastName, decimal monthlySalary)
+       {
             FirstName = firstName;
             LastName = lastName;
             MonthlySalary = monthlySalary;
-        }
+       }
 
-        //get and set the employees monthly salary
+        //property to get and set an employees salary
         public decimal MonthlySalary
         {
             get
@@ -32,16 +32,15 @@ namespace Employee
             }
             set
             {
-                if (value >= 0M)
+                if (value >= 0M)     //validate that the salary is not negative
                 {
                     monthlySalary = value;
                 }
             }
         }
 
-        //return a string containing all the Employee information
+        //return a string containing the employees information
         public override string ToString() =>
-            $"  {FirstName,-10} {LastName,-10} {MonthlySalary,10:C}";
-
+            $"{FirstName,-10} {LastName,-10} {MonthlySalary,10:C}";
     }//end class
 }//end namespace

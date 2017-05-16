@@ -12,52 +12,56 @@ namespace Employee
     {
         static void Main(string[] args)
         {
-            var employees = new[] {
-                new Employee("Jason", "Red", 5000M),
-                new Employee("Ashley", "Green", 7600M),
-                new Employee("Matthew", "Indigo", 3587.5M),
-                new Employee("James", "Indigo", 4700.77M),
-                new Employee("Luke", "Indigo", 6200M),
-                new Employee("Jason", "Blue", 3200M),
-                new Employee("Wendy", "Brown", 4236.4M) };
+            //initialize a new array of employees
+            var employees = new[]
+            {
+                new Employee("  Jason","  Red",5000M),
+                new Employee("  Ashley","  Green",7600M),
+                new Employee("  Matthew","  Indigo",3587.5M),
+                new Employee("  James","  Indigo",4700.77M),
+                new Employee("  Luke","  Indigo",6200M),
+                new Employee("  Jason","  Blue",3200M),
+                new Employee("  Wendy","  Brown",4236.4M)
+            };
 
-            Console.WriteLine("\n  Original Array: ");
-            Console.WriteLine();
+            //display all employees
+            Console.WriteLine("  Original Array: ");
             foreach (var element in employees)
             {
                 Console.WriteLine(element);
             }
 
-            //filter a range of salaries using && and a LINQ query and display the array 
+            //filter a range of salaries using && in a LINQ query
             var between4K6K =
                 from emp in employees
                 where (emp.MonthlySalary >= 4000M) && (emp.MonthlySalary <= 6000M)
                 select emp;
 
-            Console.WriteLine();
-            Console.WriteLine("\n  Employees earning in the range  " +
-                $" {4000:C} - {6000:C} per month: ");
+            //display all employees earning between 4000 and 6000 per month
+            Console.WriteLine("\n  Employees earning in the range" +
+                $" {4000:C}-{6000:C} per month:");
             foreach (var element in between4K6K)
             {
                 Console.WriteLine(element);
             }
 
-            //order the employees by last name, then first name via LINQ
+            //order the employees by last name, then first name using LINQ
             var nameSorted = 
                 from emp in employees
                 orderby emp.LastName, emp.FirstName
                 select emp;
 
-            //Header
-            Console.WriteLine();
+            //header
             Console.WriteLine("\n  First employee when sorted by name: ");
+
+            //display the 1st result form the LINQ query
             if (nameSorted.Any())
             {
                 Console.WriteLine(nameSorted.First());
             }
             else
             {
-                Console.WriteLine("  Not Found ");
+                Console.WriteLine(" Not found ");
             }
 
             //use LINQ to select employee last names
@@ -65,26 +69,27 @@ namespace Employee
                 from emp in employees
                 select emp.LastName;
 
-            Console.WriteLine();
-            Console.WriteLine("\n  Unique employee Last names: ");
+            //use method Distinct to select unique last names
+            Console.WriteLine("\n  Unique employee last names: ");
             foreach (var element in lastNames.Distinct())
             {
-                Console.WriteLine("  "+element);
+                Console.WriteLine(element);
             }
 
-            //using LINQ to select both First and last names
+            //now using LINQ to select first and last names 
             var names =
                 from emp in employees
                 select new { emp.FirstName, emp.LastName };
 
-            Console.WriteLine("\n  Names Only: ");
+            //display full name
+            Console.WriteLine("\n  Names only: ");
             foreach (var element in names)
             {
-                Console.WriteLine("  "+element);
+                Console.WriteLine(element);
             }
 
             Console.WriteLine();
             Console.WriteLine();
-        }//end Main
+        }
     }//end class
 }//end namespace
