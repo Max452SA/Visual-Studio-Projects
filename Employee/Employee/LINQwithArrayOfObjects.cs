@@ -8,82 +8,83 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-    class LINQwithArrayOfObjects
+    class LINQWithArrayOfObjects
     {
-        static void Main(string[] args)
+        static void Main(string []args)
         {
-            //initialize a new array of employees
+            //Initialize an array of employees
             var employees = new[]
             {
-                new Employee("  Jason","  Red",5000M),
-                new Employee("  Ashley","  Green",7600M),
-                new Employee("  Matthew","  Indigo",3587.5M),
-                new Employee("  James","  Indigo",4700.77M),
-                new Employee("  Luke","  Indigo",6200M),
-                new Employee("  Jason","  Blue",3200M),
-                new Employee("  Wendy","  Brown",4236.4M)
+                new Employee("  Jason", "  Red", 5000M),
+                new Employee("  Ashley", "  Green", 7600M),
+                new Employee("  Matthew", "  Indigo", 3587.5M),
+                new Employee("  James", "  Indigo", 4700.77M),
+                new Employee("  Luke", "  Indigo", 6200M),
+                new Employee("  Jason", "  Blue", 3200M),
+                new Employee("  Wendy", "  Brown", 4236.4M)
             };
 
-            //display all employees
-            Console.WriteLine("  Original Array: ");
-            foreach (var element in employees)
+            //Display all employees
+            Console.WriteLine();
+            Console.WriteLine("  Original Array:");
+            foreach(var element in employees)
             {
                 Console.WriteLine(element);
             }
 
-            //filter a range of salaries using && in a LINQ query
+            //Filter a range of salaries using && in a LINQ Query
             var between4K6K =
-                from emp in employees
-                where (emp.MonthlySalary >= 4000M) && (emp.MonthlySalary <= 6000M)
-                select emp;
+                from e in employees
+                where (e.MonthlySalary >= 4000M) && (e.MonthlySalary <= 6000M)
+                select e;
 
-            //display all employees earning between 4000 and 6000 per month
-            Console.WriteLine("\n  Employees earning in the range" +
-                $" {4000:C}-{6000:C} per month:");
-            foreach (var element in between4K6K)
+            //Display all employees making between 4000 and 6000 per month
+            Console.WriteLine("\n  Employees earning in the range " +
+                $"{4000:C} - {6000:C} per month: ");
+            foreach(var element in between4K6K)
             {
                 Console.WriteLine(element);
             }
 
-            //order the employees by last name, then first name using LINQ
-            var nameSorted = 
-                from emp in employees
-                orderby emp.LastName, emp.FirstName
-                select emp;
+            //Order employees by last name, then first name with a LINQ query
+            var nameSorted =
+                from e in employees
+                orderby e.LastName, e.FirstName
+                select e;
 
             //header
             Console.WriteLine("\n  First employee when sorted by name: ");
 
-            //display the 1st result form the LINQ query
+            //attempt to display the 1st result of the above LINQ query
             if (nameSorted.Any())
             {
                 Console.WriteLine(nameSorted.First());
             }
             else
             {
-                Console.WriteLine(" Not found ");
+                Console.WriteLine("  Not Found! ");
             }
 
-            //use LINQ to select employee last names
+            //Use a LINQ query to select all employees last names
             var lastNames =
-                from emp in employees
-                select emp.LastName;
+                from e in employees
+                select e.LastName;
 
-            //use method Distinct to select unique last names
+            //use method Distinct to select unique last names amongst employees
             Console.WriteLine("\n  Unique employee last names: ");
-            foreach (var element in lastNames.Distinct())
+            foreach(var element in lastNames.Distinct())
             {
                 Console.WriteLine(element);
             }
 
-            //now using LINQ to select first and last names 
+            //Use LINQ to select first names and last names
             var names =
-                from emp in employees
-                select new { emp.FirstName, emp.LastName };
+                from e in employees
+                select new { e.FirstName, e.LastName };
 
-            //display full name
-            Console.WriteLine("\n  Names only: ");
-            foreach (var element in names)
+            //Display full names
+            Console.WriteLine("\n  Names Only: ");
+            foreach(var element in names)
             {
                 Console.WriteLine(element);
             }
@@ -91,5 +92,6 @@ namespace Employee
             Console.WriteLine();
             Console.WriteLine();
         }
-    }//end class
+    }
+   
 }//end namespace
