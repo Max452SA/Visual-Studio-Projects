@@ -1,5 +1,5 @@
-﻿// LINQwithListCollection.cs
-// LINQ to Objexts using a List<string>
+﻿// LINQWithListCollection.cs
+// LINQ to Objects using a List<string>
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,65 +8,65 @@ using System.Threading.Tasks;
 
 namespace LINQwithListCollection
 {
-    class LINQwithListCollection
+    class LINQWithListCOllection
     {
         static void Main(string[] args)
         {
+            // Populate a new list of strings
             var items = new List<string>();
-            items.Add("aQua");
-            items.Add("RusT");
+            items.Add("aQua");      // add "aQua" to the end of the list
+            items.Add("RusT");      // add "RusT" to the end of the list
             items.Add("yElLow");
             items.Add("rEd");
 
-            Console.WriteLine();
-            Console.WriteLine();
-            //display the initial list
-            Console.Write("  items contains: ");
-            foreach(var item in items)
+            // display your initial list
+            Console.Write("\n\n  items contains: ");
+            foreach (var item in items)
             {
-                Console.Write($" {item}");
+                Console.Write($"  {item}");
             }
 
-            Console.WriteLine();
+            Console.WriteLine();        // output the end of line
 
-            //converts to uppercase, selects those starting with R, and sort the list
+            // convert all items in list to uppercase, select those starting with "R" 
+            // then sort the list
             var startsWithR =
                 from item in items
-                let upperCaseString = item.ToUpper()
-                where upperCaseString.StartsWith("R")
-                orderby upperCaseString
-                select upperCaseString;
+                let uppercaseString = item.ToUpper()
+                where uppercaseString.StartsWith("R")
+                select uppercaseString;
 
-            Console.Write("  Results of the query startsWithR: ");
-            foreach(var item in startsWithR)
+            // display the above query's results
+            Console.Write("  results of the query startsWithR: ");
+            foreach (var item in startsWithR)
             {
-                Console.Write($" {item}");
+                Console.Write($"  {item}");
             }
 
-            Console.WriteLine();
+            Console.WriteLine();    // output the end of line
 
-            items.Add("rUbY");
-            items.Add("SaFFRon");
+            items.Add("rUbY");      // adds "rUbY" to the end of the list
+            items.Add("SaFfRon");   // adds "SaFfRon" to the end of the list
 
-            Console.WriteLine();
-            //display list items again
-            Console.Write("  items contains: ");
-            foreach(var item in items)
+            // now display intial list
+            Console.Write("\n  items contains: ");
+            foreach (var item in items)
             {
-                Console.Write($" {item}");
+                Console.Write($"  {item}");
             }
 
-            Console.WriteLine();
+            Console.WriteLine();    // output the end of line
 
-            Console.Write("  Results of query startsWithR: ");
-            foreach(var item in startsWithR)
+            // display the update query results
+            Console.Write("  results of query startsWithR: ");
+            foreach (var item in startsWithR)
             {
-                Console.Write($" {item}");
+                Console.Write($"  {item}");
             }
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-        }//end main
+        }//end Main
     }//end class
 }//end namespace
