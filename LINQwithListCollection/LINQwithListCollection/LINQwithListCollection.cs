@@ -10,7 +10,7 @@ namespace LINQwithListCollection
 {
     class LINQWithListCOllection
     {
-        static void Main(string[] args)
+        static void Main()
         {
             // Populate a new list of strings
             var items = new List<string>();
@@ -34,6 +34,7 @@ namespace LINQwithListCollection
                 from item in items
                 let uppercaseString = item.ToUpper()
                 where uppercaseString.StartsWith("R")
+                orderby uppercaseString
                 select uppercaseString;
 
             // display the above query's results
