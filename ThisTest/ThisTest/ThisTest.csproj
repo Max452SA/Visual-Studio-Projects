@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{59C8982D-3412-49F7-AADF-DCCFA3C8B30E}</ProjectGuid>
+    <ProjectGuid>{40FFB91F-B3E7-4DFC-B3BD-3CC671EB7E31}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Time1</RootNamespace>
-    <AssemblyName>Time1</AssemblyName>
+    <RootNamespace>ThisTest</RootNamespace>
+    <AssemblyName>ThisTest</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Time1.cs" />
+    <Compile Include="ThisTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Time1Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
